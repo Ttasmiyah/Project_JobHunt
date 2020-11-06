@@ -1,0 +1,35 @@
+Project Overview:
+Our project name is JobHunt. The attempt to make this project was all about making a website where both recruiters/companies and jobseekers will be able to post and 
+apply for jobs respectively. They will have their different panels for working and connecting as their perspective seperately. 
+The features which we tried to implement in the website are given below,
+* Different login & registration panel for Company & Jobseeker
+* A separate admin panel to control in case of changing infos of username or passwrods or roles 
+* Own profile of each registered member
+* Edit or Update profile
+* Posting for jobs
+* Applying for jobs with CV 
+* Searching jobs from particular Categories
+* Showing matched jobs which go with the interest of a jobseeker
+* Showing applied jobs to jobseeker
+* Showing joblists which were posted by a comapny and also editing posted job details
+* Showing applicants list with their details for a job to the recruiter
+* Applied request deletion which are in pending position
+* Confirmation of application accepted by the company to jobseeker
+
+
+Member Contribution:
+The members for this project are ID: 170104033, 170104037, 170104051.
+The UI Design and the database were taken cared of by ID: 170104051.
+The backend part was performed by ID: 170104033 & 170104037.
+
+Instruction to simulate the project:
+To implement our project we have used SQL Server Management Studio (version 2014) & Microsoft Visual Studio (version 2019).
+After downloading the whole project, the database model have to be executed. At first, the sql queries of entities must be created.
+In the sql server management studio, the login is in Windows authentication mode. After connecting, the sql file 'JobHunt.sql' inside the 'Job Hunt' folder, 
+queries for database creating needs to be executed first and then the queries for entity creating will be executed which are given in the sql file properly. 
+So, it won’t be any problem to create the entities for the project.
+After downloading the whole project there will be an JobHunt.sln file inside the JobHunt folder, which is the solution file for visual studio. 
+After opening the file, the visual studio will be on and then the database according to the different servers is needed to be updated. For that, the Web.config file 
+needs to be opened and inside the <connectionStrings> tag, the server name has to be changed as particular database servers. There will be written 
+connectionString="Data Source=DESKTOP-FAQ6T3B\SQLEXPRESS, and in the place of DESKTOP-FAQ6T3B\SQLEXPRESS, the database server name has to be written where the queries
+are execured. After that the project is ready to go on simulation.  
